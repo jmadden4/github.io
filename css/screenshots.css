@@ -1,4 +1,6 @@
     img.screenshot{
-    border: 10px solid transparent;
-    border-color: black;
+        border: 10px solid transparent;
+        border-color: black;
+        max-width: 100%;
+        height: auto;
     }
