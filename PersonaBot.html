@@ -10,6 +10,7 @@
 
     <title>Another DogBlog</title>
    <link rel="shortcut icon" href="img/DogIcon.png" type="image/x-icon">
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -20,6 +21,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/screenshots.css" rel="stylesheet">
 
   </head>
 
@@ -28,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-       <!-- <a class="navbar-brand" href="index.html"></a> -->
+        <!-- <a class="navbar-brand" href="index.html">Home</a> -->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -53,34 +55,43 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/SmileyDog.jpg')">
+    <header class="masthead" style="background-image: url('/img/DogBotBanner.png')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="page-heading">
-              <h1>About this Site</h1>
-              <span class="subheading">Thanks for Visiting! I hope you had a laugh while learning something new.</span>
+            <div class="post-heading">
+              <h1>Dog-Bot</h1>
+              <h2 class="subheading"></h2>
+              <span class="meta">Posted by
+                <a href="#">Joe Madden</a>
+                on December 8, 2017</span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <p></p>
-          <p></p>
-          <p></p>
-	  <br/>
-	  <p>Thanks to python, my interest in coding has been reignited and a recent weekend building a proof of concept chat bot with TensorFlow has created a massive amount of curiousity</p>
-	  <br/>
-	  <p>The look and feel fo this site was pulled from Bootstrap templates via <a href="https://github.com/BlackrockDigital/startbootstrap">StartBootstrap</a> for making this look more professional than it should be</p>
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+
+		<p>PersonaBot is a ChatBot for Product Managers</p>
+                <p>Simliar to <a href="Dog-Bot.html">Dog-Bot</a>, the PersonaBot shows pictures based on chatbot responses</p>
+                <p></p> <img class="screenshot" src="/img/dogbotbefore.JPG"></img>
+		            <p> <img class="screenshot" src="https://github.com/jmadden4/PersonaBot/raw/master/app/static/AngularHome.jpg"></img></p>
+                <br/>
+                <p>Screenshot of latest version</p>
+                <p> <img class="screenshot" src="https://github.com/jmadden4/PersonaBot/raw/master/app/static/PersonaBotMVP.PNG"></img></p>
+
+          </div>
         </div>
-      </div>
-    </div>
+      <p>The source code for this project can be found <a href="http://github.com/jmadden4/PersonaBot/blob/master/README.md" target="_blank">here</a></p>
+	  </div>
+
+    </article>
 
     <hr>
 
@@ -115,7 +126,7 @@
                 </a>
               </li>
             </ul>
-           <!-- <p class="copyright text-muted">Copyright &copy; Your Website 2017</p> -->
+<!--            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p> -->
           </div>
         </div>
       </div>
