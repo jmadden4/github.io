@@ -5,4 +5,4 @@
 ### Templates courtesy of [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)
 
 
-### Anyone can build their own version of this site for free by visiting https://pages.github.com/
+### Anyone can build their own version of this site *for free* by visiting https://pages.github.com/
